@@ -1,0 +1,110 @@
+﻿Build started 12-Dec-18 11:16:29 AM.
+     1>Project "C:\Users\lahor\Desktop\final_facebook\final_facebook\final_facebook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt final_facebook.cpp
+         final_facebook.cpp
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(136): error C2661: 'Date::Date' : no overloaded function takes 3 arguments
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(204): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(204): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(388): error C2061: syntax error : identifier 'Post'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(233): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(237): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(239): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(239): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(244): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(244): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(390): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(392): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(392): error C2061: syntax error : identifier 'Post'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(397): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(397): error C2065: 'p' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(406): error C2352: 'Date::getcurrentdate' : illegal call of non-static member function
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(128) : see declaration of 'Date::getcurrentdate'
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(128) : see declaration of 'Date::getcurrentdate'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(435): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(437): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(439): error C2065: 'timelinepost' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(439): error C2227: left of '->print_post' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(457): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(457): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(528): error C2061: syntax error : identifier 'Comment'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(530): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(532): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(532): error C2061: syntax error : identifier 'Comment'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(537): error C2065: '_comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(539): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(539): error C2065: '_comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(551): error C3867: 'Date::printdate': function call missing argument list; use '&Date::printdate' to create a pointer to member
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(553): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(555): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(557): error C2065: 'comment' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(557): error C2227: left of '->print_comment' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(965): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(965): error C2059: syntax error : '}'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(703): error C2248: 'Post::Post' : cannot access private member declared in class 'Post'
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(460) : see declaration of 'Post::Post'
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(450) : see declaration of 'Post'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(715): error C2660: 'User::settimelinepost' : function does not take 1 arguments
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(783): error C2660: 'Post::setcomment' : function does not take 1 arguments
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(821): error C2601: 'setcurrentuser' : local function definitions are illegal
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(847): error C2601: 'run' : local function definitions are illegal
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(865): error C2601: 'linking' : local function definitions are illegal
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(920): error C2440: 'initializing' : cannot convert from 'char *' to 'char **'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(949): error C2065: 'tempusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(951): error C2065: 'tempusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(953): error C2065: 'tempusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(953): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(958): error C2065: 'tempusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(958): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(822): error C2065: 'totalusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(825): error C2065: 'users' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(825): error C2227: left of '->getid' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(828): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(828): error C2065: 'users' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(831): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(834): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(834): error C2227: left of '->printing_name' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(848): error C3861: 'setcurrentuser': identifier not found
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(850): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(852): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(852): error C2227: left of '->viewfriendlist' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(853): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(853): error C2227: left of '->viewpageliked' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(854): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(854): error C2227: left of '->viewhome' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(855): error C2065: 'currentuser' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(855): error C2227: left of '->viewtimeline' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(868): error C2065: 'totalusers' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(873): error C2065: 'users' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(873): error C2227: left of '->getlikedpagesid' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(879): error C2065: 'totalpages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(882): error C2065: 'pages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(882): error C2227: left of '->getid' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(886): error C2065: 'pages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(890): error C2065: 'pages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(890): error C2227: left of '->setlikedpages' must point to class/struct/union/generic type
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(897): error C2065: 'temppages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(899): error C2065: 'temppages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(901): error C2065: 'temppages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(901): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(907): error C2065: 'temppages' : undeclared identifier
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(907): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(970): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(970): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(1004): error C2059: syntax error : '}'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(1004): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(1017): error C2039: 'linkng' : is not a member of 'Facebook'
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(627) : see declaration of 'Facebook'
+     1>c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(1019): error C2039: 'run' : is not a member of 'Facebook'
+                 c:\users\lahor\desktop\final_facebook\final_facebook\final_facebook.cpp(627) : see declaration of 'Facebook'
+     1>Done Building Project "C:\Users\lahor\Desktop\final_facebook\final_facebook\final_facebook.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.89
